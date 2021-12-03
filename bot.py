@@ -44,7 +44,7 @@ for event in VkLongPoll(vk).listen():
 				]
 			)
 
-			send_message(user_id, "VkTools Keyboard by Fsoky ~", keyboard)
+			send_message(user_id, "VkTools Keyboard by DevOps ~", keyboard)
 
 		elif text == "test carousel":
 			carousel = Carousel(
@@ -66,4 +66,4 @@ for event in VkLongPoll(vk).listen():
 				]
 			)
 
-			send_message(user_id, "VkTools Carousel by Fsoky ~", carousel=carousel)
+			send_message(user_id, "VkTools Carousel by DevOps ~", carousel=carousel)
